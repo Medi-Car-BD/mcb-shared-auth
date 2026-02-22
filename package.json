@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "node -e \"\"",
-    "postinstall": "prisma generate",
+    "postinstall": "",
     "predev": "prisma generate",
     "prestart": "prisma generate",
     "build": "tsc",
