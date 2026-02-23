@@ -1,1 +1,1 @@
-export * from "./globalError";
+export * from "../utils/globalError";

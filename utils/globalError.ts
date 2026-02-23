@@ -1,4 +1,4 @@
-import { logger, AppError } from "../utils";
+import { logger, AppError } from ".";
 import type { Request, Response, NextFunction } from "express";
 
 const processRequest = (req: Request, res: Response, next: NextFunction) => {

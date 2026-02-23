@@ -1,8 +1,13 @@
 {
-  "name": "mcb-backend-boilerplate",
+  "name": "@mcb-shared/shared-auth",
   "version": "1.0.0",
-  "description": "A boilerplate for a Node.js backend using Express, Prisma, and TypeScript.",
+  "description": "Shared authentication module for MCB applications",
   "main": "index.js",
+  "private": true,
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "preinstall": "node -e \"\"",
     "postinstall": "",
