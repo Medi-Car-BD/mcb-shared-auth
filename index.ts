@@ -7,4 +7,5 @@ export {
   errorHandler,
   notFound,
   processRequest,
+  limiter,
 } from "./utils";
