@@ -28,3 +28,17 @@ pnpm prisma generate
 ```bash
 pnpm prisma:migrate
 ```
+
+- Shared Auth package installation
+
+```bash
+set GITHUB_TOKEN="your_github_token"
+
+pnpm install @mcb-shared-auth/auth
+```
+
+Or Use
+
+```bash
+pnpm install github:Medi-Car-BD/mcb-shared-auth
+```

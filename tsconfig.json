@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "./dist" /* Redirect output structure to the directory. */,
+    "declaration": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": false,
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */
