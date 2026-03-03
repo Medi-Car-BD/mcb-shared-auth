@@ -34,11 +34,19 @@ pnpm prisma:migrate
 ```bash
 set GITHUB_TOKEN="your_github_token"
 
+npm config set //registry.npmjs.org/:_authToken "your_npm_token"
+
 pnpm install @mcb-shared-auth/auth
 ```
 
-Or Use
+#Or Use
 
 ```bash
 pnpm install github:Medi-Car-BD/mcb-shared-auth
+```
+
+- Patched version of the shared auth package
+
+```bash
+npm version patch
 ```
