@@ -3,7 +3,7 @@ export type TUser = {
   name: string | null;
   email: string;
   image?: string | null;
-  password: string;
+  password?: string;
   createdAt?: Date;
   updatedAt?: Date;
 };
